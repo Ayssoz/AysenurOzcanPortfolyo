@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+a:visited  {
+    color: black;
+}
+a:hover  {
+    color:rgb(190, 131, 23)
+  }
+.projeler {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+.projeler img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(103, 103, 103, 0.1);
+    border: 1px solid #949494;
+}
+.projeler img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+.pkproje  {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+.pkproje img  {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(103, 103, 103, 0.1);
+    border: 1px solid #949494;
+}
+.pkproje img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.gmproje  {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+.gmproje img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(103, 103, 103, 0.1);
+    border: 1px solid #949494;
+}
+.gmproje img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.arşmerproje  {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+.arşmerproje img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(103, 103, 103, 0.1);
+    border: 1px solid #949494;
+}
+.arşmerproje img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
